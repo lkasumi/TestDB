@@ -18,6 +18,7 @@
 		1813C6F41754C38300B7FD4F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1813C6F31754C38300B7FD4F /* Default@2x.png */; };
 		1813C6F61754C38300B7FD4F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1813C6F51754C38300B7FD4F /* Default-568h@2x.png */; };
 		1813C6F91754C38400B7FD4F /* TestDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1813C6F71754C38400B7FD4F /* TestDB.xcdatamodeld */; };
+		1813C7021754C3B800B7FD4F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1813C7011754C3B800B7FD4F /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		1813C6F31754C38300B7FD4F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1813C6F51754C38300B7FD4F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1813C6F81754C38400B7FD4F /* TestDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestDB.xcdatamodel; sourceTree = "<group>"; };
+		1813C6FF1754C3AE00B7FD4F /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		1813C7011754C3B800B7FD4F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1813C7021754C3B800B7FD4F /* libsqlite3.dylib in Frameworks */,
 				1813C6DE1754C38300B7FD4F /* UIKit.framework in Frameworks */,
 				1813C6E01754C38300B7FD4F /* Foundation.framework in Frameworks */,
 				1813C6E21754C38300B7FD4F /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +60,8 @@
 		1813C6D11754C38300B7FD4F = {
 			isa = PBXGroup;
 			children = (
+				1813C7011754C3B800B7FD4F /* libsqlite3.dylib */,
+				1813C6FF1754C3AE00B7FD4F /* libsqlite3.0.dylib */,
 				1813C6E51754C38300B7FD4F /* TestDB */,
 				1813C6DC1754C38300B7FD4F /* Frameworks */,
 				1813C6DB1754C38300B7FD4F /* Products */,
